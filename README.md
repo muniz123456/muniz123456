@@ -12,7 +12,9 @@ You can click the Preview link to take a look at your changes.
 < html >
 
 < cabeça >
-  <! - Conjunto de caracteres (definido pela ASCII) ->   
+  <! - Conjunto de caracteres (definido pela ASCII) -> 
+  
+  
   < meta  charset = " UTF-8 " >
   < title > Cardápio </ title >
   <! - direcioanamento de link ao arquivo de script externo ->
@@ -54,6 +56,7 @@ You can click the Preview link to take a look at your changes.
   </ header >
   < principal >
     <! - my-3 = espaçamento entre as margens dos elementos ->
+    
     < section  class = " my-3 " >
 
       <! - Grade ->
@@ -113,6 +116,8 @@ You can click the Preview link to take a look at your changes.
 
   </ main >
   < rodapé > </ rodapé >
+  
+  
 
   <! - Cardápio = pegando o conteudo do JS ->
   < script  src = " ./js/cardapio.js " > </ script >
